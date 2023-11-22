@@ -1,0 +1,130 @@
+.full_page{
+    background-color: hsl(216, 12%, 8%);
+    height: 700px;
+    width: 800px;
+    position: absolute;
+    margin-left: 12rem;
+}
+
+
+
+.main_part{
+   width: 300px;
+   padding: 48px;
+   border: 2px solid #3333;
+   margin-left: 22rem;
+   margin-top: 10rem;
+   background-color:  hsl(213, 19%, 18%);
+   border-radius: 2rem;
+   position: absolute;
+   margin-left: 11rem;
+}
+
+.mean_head{
+    color:  hsl(0, 0%, 100%);
+    display: flex;
+   margin-top: 1rem;
+}
+
+.para{
+    color: hsl(217, 12%, 63%);
+}
+
+.numbers{
+    color: hsl(217, 12%, 63%); 
+    display: flex;
+    list-style-type: none;
+    
+}
+
+
+.number{
+    content: '';
+    display: inline-block;
+    width: 30px; /* Diameter of the circle */
+    height: 30px; /* Diameter of the circle */
+    border-radius: 50%; /* Makes the shape a circle */
+    background-color:  hsl(216, 12%, 8%);/* Color of the circle */
+    margin-right: 19px;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+      line-height: 33px;
+    
+}
+.number:hover{
+    background-color:  hsl(25, 97%, 53%);  
+}
+.number.active{
+ background-color: hsl(216, 12%, 54%);
+}
+
+.button-container{
+    text-align: center;
+    transform: rotateY('180deg');
+  
+}
+
+
+.button1{
+    display: inline-block;
+    padding: 7px 100px; /* Adjust the padding as needed */
+    text-decoration: none;
+    background-color: hsl(25, 97%, 53%);
+
+    color: hsl(0, 0%, 100%) ;
+   
+    border-radius: 17px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+   
+}
+.button1:hover{
+    background-color: hsl(0, 0%, 100%) ;
+    color:  hsl(25, 97%, 53%);
+}
+
+
+.next_page{
+    width: 300px;
+    padding: 28px;
+    border: 2px solid #3333;
+    margin-left: 22rem;
+    margin-top: 10rem;
+    background-color:  hsl(213, 19%, 18%);
+    border-radius: 2rem;
+   
+   position: absolute;
+   display: none;
+    margin-left: 12rem;
+}
+
+
+
+.number_value{
+    padding: 5px;
+    background-color: white;
+    width: 160px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+
+.back_logo{
+    margin-left: 4rem;
+}
+
+.back_heading{
+    margin-left: 5rem;
+}
+.number_value{
+    color:  hsla(25, 97%, 53%, 0.57);
+    background-color:   hsla(216, 12%, 54%, 0.141);
+}
+ .back_heading{
+    color:  hsl(0, 0%, 100%);
+ }
+ .para1{
+    color: hsl(217, 12%, 63%);
+ }
